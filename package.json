@@ -1,0 +1,20 @@
+{
+  "name": "bus-seat-reservation-app",
+  "version": "1.0.0",
+  "description": "A web application for bus seat reservation.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "live-server": "^1.2.1"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
