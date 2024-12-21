@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Seat Reservation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bus Seat Reservation</h1>
+    <label for="travel-date">Travel Date:</label>
+    <input type="date" id="travel-date"><br>
+    <label for="travel-time">Travel Time:</label>
+    <select id="travel-time">
+        <option value="2am">2am</option>
+        <option value="7pm">7pm</option>
+        <option value="9pm">9pm</option>
+    </select><br>
+    <button id="check-seat">Check Seat</button>
+    <div id="seat-layout"></div>
+    <button id="confirm">Confirm</button>
+    <script src="app.js"></script>
+</body>
+</html>

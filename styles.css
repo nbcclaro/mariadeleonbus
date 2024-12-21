@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="date"],
+select {
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.seat-layout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.seat-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.seat {
+    width: 50px;
+    height: 50px;
+    background-color: #4caf50;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.seat.selected {
+    background-color: #de1c1c;
+    color: white;
+}
+
+.seat.non-clickable {
+    background-color: #8e8d8d;
+    cursor: not-allowed;
+}
+
+.seat.reserved {
+    background-color: red;
+    color: white;
+    cursor: not-allowed;
+}
+
+.aisle {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
